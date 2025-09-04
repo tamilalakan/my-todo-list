@@ -283,7 +283,7 @@
             
             try {
                 const systemPrompt = "You are an expert project planner. A user will provide a high-level task. Your job is to break it down into a concise list of 3-5 actionable sub-tasks. Respond ONLY with a JSON array of strings, where each string is a sub-task. For example, for 'Plan a vacation', respond with: [\"Research destinations and flights\", \"Book accommodations\", \"Plan daily itinerary\", \"Pack bags\"].";
-                const apiKey = "AIzaSyC3tLybZcl61gF1p0eu-IwIAdG0xofdZUw"; // Canvas handles API key
+                const apiKey = "__API_KEY__"; // Canvas handles API key
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 
                 const payload = {
